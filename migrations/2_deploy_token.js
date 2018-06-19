@@ -1,4 +1,4 @@
-var Migrations = artifacts.require("./COT.sol");
+var COT = artifacts.require("./COT.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(COT);
